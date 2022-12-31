@@ -1,0 +1,77 @@
+    body {
+        background-color: gray;
+        position: relative;
+        background-image: url("pictures/backg3.jpg");
+        overflow-y: hidden;
+    }
+    
+    .intro {
+        display: flex;
+        width: 100%;
+        height: 700px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .counter {
+        width: 100%;
+        height: 400px;
+        /* margin-top: 160px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 1000px;
+        border-radius: 48px;
+        border: 7px solid yellow;
+        z-index: 999;
+    }
+    
+    .people_entered {
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+    
+    #count-el {
+        font-size: 50px;
+    }
+    
+    #save-btn {
+        width: 160px;
+        height: 40px;
+        border-radius: 6px;
+        color: white;
+        background-color: green;
+        opacity: 0.7;
+    }
+    
+    #save-btn:hover {
+        opacity: 1;
+        background-color: green;
+        transition: 0.1s;
+    }
+    
+    #save-btn:active {
+        background-color: rgb(15, 231, 15);
+    }
+    
+    #increment-btn {
+        width: 160px;
+        height: 40px;
+        border-radius: 6px;
+        color: white;
+        background-color: red;
+        opacity: 0.7;
+        margin-bottom: 10px;
+    }
+    
+    #increment-btn:hover {
+        opacity: 1;
+        background-color: red;
+        transition: 0.1s;
+    }
+    
+    #increment-btn:active {
+        background-color: rgb(243, 105, 105)
+    }
